@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcExtras", "MvcExtras\MvcExtras.csproj", "{9CCDE919-EED7-4C86-8AC4-511A47FC0542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcExtras.IoC", "MvcExtras.IoC\MvcExtras.IoC.csproj", "{BAA46447-D070-4664-A73A-031458EE44F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcExtrasTestApp", "MvcExtrasTestApp\MvcExtrasTestApp.csproj", "{87992B61-BEDA-4D1C-AC98-4C9AD43297DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcExtras.AutoMapper", "MvcExtras.AutoMapper\MvcExtras.AutoMapper.csproj", "{9B600239-63AA-47A3-BECF-88C89462A631}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +19,18 @@ Global
 		{9CCDE919-EED7-4C86-8AC4-511A47FC0542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CCDE919-EED7-4C86-8AC4-511A47FC0542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CCDE919-EED7-4C86-8AC4-511A47FC0542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA46447-D070-4664-A73A-031458EE44F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA46447-D070-4664-A73A-031458EE44F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA46447-D070-4664-A73A-031458EE44F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA46447-D070-4664-A73A-031458EE44F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87992B61-BEDA-4D1C-AC98-4C9AD43297DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87992B61-BEDA-4D1C-AC98-4C9AD43297DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87992B61-BEDA-4D1C-AC98-4C9AD43297DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87992B61-BEDA-4D1C-AC98-4C9AD43297DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B600239-63AA-47A3-BECF-88C89462A631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B600239-63AA-47A3-BECF-88C89462A631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B600239-63AA-47A3-BECF-88C89462A631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B600239-63AA-47A3-BECF-88C89462A631}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

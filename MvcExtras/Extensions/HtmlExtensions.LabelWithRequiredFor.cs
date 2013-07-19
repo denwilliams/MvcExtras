@@ -52,7 +52,7 @@ namespace System.Web.Mvc
                                 .Length == 1;
             }
 
-            TagBuilder tag = new TagBuilder("label");
+            var tag = new TagBuilder("label");
             tag.Attributes.Add(
                 "for",
                 TagBuilder.CreateSanitizedId(
