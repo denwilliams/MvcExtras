@@ -45,6 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionResults\HttpForbiddenResult.cs" />
+    <Compile Include="ActionResults\HttpNotFoundResult.cs" />
     <Compile Include="Attributes\AuthorizePlusAttribute.cs" />
     <Compile Include="Attributes\HandleErrorPlusAttribute.cs" />
     <Compile Include="Attributes\HandleOfflineAttribute.cs" />
